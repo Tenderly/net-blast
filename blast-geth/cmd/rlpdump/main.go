@@ -28,8 +28,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/rlp"
 )
 
 var (

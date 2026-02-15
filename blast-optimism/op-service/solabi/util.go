@@ -8,8 +8,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-geth/common"
 )
 
 // These are empty padding values. They should be zero'd & not modified at all.

@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-blast/blast-geth/rpc"
 
-	"github.com/ethereum-optimism/optimism/op-conductor/consensus"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-conductor/consensus"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
 )
 
 var ErrNotLeader = errors.New("refusing to proxy request to non-leader sequencer")

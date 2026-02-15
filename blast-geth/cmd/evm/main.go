@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/t8ntool"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/tenderly/net-blast/blast-geth/cmd/evm/internal/t8ntool"
+	"github.com/tenderly/net-blast/blast-geth/internal/debug"
+	"github.com/tenderly/net-blast/blast-geth/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

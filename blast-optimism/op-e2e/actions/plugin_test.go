@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-e2e/e2eutils"
-	"github.com/ethereum-optimism/optimism/op-e2e/files"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-optimism/op-e2e/e2eutils"
+	"github.com/tenderly/net-blast/blast-optimism/op-e2e/files"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testlog"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/ethclient"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/params"
 	"github.com/stretchr/testify/require"
 )
 

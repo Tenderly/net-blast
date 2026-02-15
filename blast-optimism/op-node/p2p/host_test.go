@@ -19,16 +19,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/p2p/enode"
+	"github.com/tenderly/net-blast/blast-geth/rpc"
 
-	"github.com/ethereum-optimism/optimism/op-node/metrics"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
-	"github.com/ethereum-optimism/optimism/op-service/testutils"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testlog"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testutils"
 )
 
 func TestingConfig(t *testing.T) *Config {

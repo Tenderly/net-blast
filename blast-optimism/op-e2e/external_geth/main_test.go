@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	e2e "github.com/ethereum-optimism/optimism/op-e2e"
-	"github.com/ethereum-optimism/optimism/op-e2e/config"
+	e2e "github.com/tenderly/net-blast/blast-optimism/op-e2e"
+	"github.com/tenderly/net-blast/blast-optimism/op-e2e/config"
 	"github.com/stretchr/testify/require"
 )
 
@@ -26,7 +26,7 @@ func TestShim(t *testing.T) {
 
 	opGethPath, err := filepath.Abs("op-geth")
 	require.NoError(t, err)
-	cmd = exec.Command("go", "build", "-o", opGethPath, "github.com/ethereum/go-ethereum/cmd/geth")
+	cmd = exec.Command("go", "build", "-o", opGethPath, "github.com/tenderly/net-blast/blast-geth/cmd/geth")
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 	err = cmd.Run()

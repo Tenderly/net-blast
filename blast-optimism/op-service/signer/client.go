@@ -10,13 +10,13 @@ import (
 	"os"
 	"time"
 
-	optls "github.com/ethereum-optimism/optimism/op-service/tls"
-	"github.com/ethereum-optimism/optimism/op-service/tls/certman"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	optls "github.com/tenderly/net-blast/blast-optimism/op-service/tls"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/tls/certman"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/common/hexutil"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/rpc"
 )
 
 type SignerClient struct {

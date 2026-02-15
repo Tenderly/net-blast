@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/tenderly/net-blast/blast-geth
 
 go 1.24.2
 

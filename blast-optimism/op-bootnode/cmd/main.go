@@ -3,12 +3,12 @@ package main
 import (
 	"os"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/op-bootnode/bootnode"
-	"github.com/ethereum-optimism/optimism/op-bootnode/flags"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-bootnode/bootnode"
+	"github.com/tenderly/net-blast/blast-optimism/op-bootnode/flags"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
 )
 
 func main() {

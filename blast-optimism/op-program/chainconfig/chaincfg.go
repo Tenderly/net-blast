@@ -3,8 +3,8 @@ package chainconfig
 import (
 	"fmt"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-geth/params"
 )
 
 var OPGoerliChainConfig, OPSepoliaChainConfig, OPMainnetChainConfig *params.ChainConfig

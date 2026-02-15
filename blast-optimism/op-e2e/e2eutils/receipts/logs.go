@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
 )
 
 // FindLog searches the array of logs (typically retrieved from a receipt) to find one that can be parsed by the

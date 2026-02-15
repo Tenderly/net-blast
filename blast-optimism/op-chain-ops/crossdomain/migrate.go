@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/bindings"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/predeploys"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/params"
 )
 
 // Constants used by `CrossDomainMessenger.baseGas`

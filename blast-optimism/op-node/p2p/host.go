@@ -27,11 +27,11 @@ import (
 	ma "github.com/multiformats/go-multiaddr"
 	madns "github.com/multiformats/go-multiaddr-dns"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
-	"github.com/ethereum-optimism/optimism/op-node/p2p/gating"
-	"github.com/ethereum-optimism/optimism/op-node/p2p/store"
-	"github.com/ethereum-optimism/optimism/op-service/clock"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p/gating"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p/store"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/clock"
 )
 
 const (

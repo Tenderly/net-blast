@@ -3,8 +3,8 @@ package dial
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/ethclient"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 // L2EndpointProvider is an interface for providing a RollupClient and l2 eth client

@@ -12,8 +12,8 @@ import (
 	"runtime/pprof"
 	"strconv"
 
-	"github.com/ethereum-optimism/optimism/op-service/httputil"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/httputil"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 type Service struct {

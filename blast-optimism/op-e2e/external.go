@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-e2e/config"
-	"github.com/ethereum-optimism/optimism/op-e2e/external"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-optimism/op-e2e/config"
+	"github.com/tenderly/net-blast/blast-optimism/op-e2e/external"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core"
+	"github.com/tenderly/net-blast/blast-geth/params"
 	"github.com/onsi/gomega/gexec"
 	"github.com/stretchr/testify/require"
 )

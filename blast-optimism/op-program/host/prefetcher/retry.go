@@ -4,11 +4,11 @@ import (
 	"context"
 	"math"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/retry"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/retry"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 const maxAttempts = math.MaxInt // Succeed or die trying

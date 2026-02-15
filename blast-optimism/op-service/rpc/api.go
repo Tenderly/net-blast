@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/rpc"
 )
 
 func ToGethAdminAPI(api *CommonAdminAPI) rpc.API {

@@ -3,8 +3,8 @@ package testutils
 import (
 	"context"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-geth/common"
 )
 
 type MockL2Client struct {

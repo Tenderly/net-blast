@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-geth/core/state"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/params"
 )
 
 var (

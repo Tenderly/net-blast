@@ -5,18 +5,18 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/common/hexutil"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/crypto"
+	"github.com/tenderly/net-blast/blast-geth/rlp"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	preimage "github.com/ethereum-optimism/optimism/op-preimage"
-	"github.com/ethereum-optimism/optimism/op-program/client/mpt"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/testutils"
+	preimage "github.com/tenderly/net-blast/blast-optimism/op-preimage"
+	"github.com/tenderly/net-blast/blast-optimism/op-program/client/mpt"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testutils"
 )
 
 func mockPreimageOracle(t *testing.T) (po *PreimageOracle, hintsMock *mock.Mock, preimages map[common.Hash][]byte) {

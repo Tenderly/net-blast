@@ -10,7 +10,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/net-blast/blast-geth/crypto"
 )
 
 var zlibWriterPool = sync.Pool{

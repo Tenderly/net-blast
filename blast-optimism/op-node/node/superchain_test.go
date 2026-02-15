@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-geth/params"
 )
 
 func TestHaltMaybe(t *testing.T) {

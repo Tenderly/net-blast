@@ -27,19 +27,19 @@ import (
 
 	"github.com/ethereum-optimism/superchain-registry/superchain"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/triedb/pathdb"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/common/hexutil"
+	"github.com/tenderly/net-blast/blast-geth/common/math"
+	"github.com/tenderly/net-blast/blast-geth/core/rawdb"
+	"github.com/tenderly/net-blast/blast-geth/core/state"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/crypto"
+	"github.com/tenderly/net-blast/blast-geth/ethdb"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/params"
+	"github.com/tenderly/net-blast/blast-geth/rlp"
+	"github.com/tenderly/net-blast/blast-geth/trie"
+	"github.com/tenderly/net-blast/blast-geth/trie/triedb/pathdb"
 )
 
 //go:generate go run github.com/fjl/gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go

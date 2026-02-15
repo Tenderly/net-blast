@@ -8,18 +8,18 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
-	opnode "github.com/ethereum-optimism/optimism/op-node"
-	"github.com/ethereum-optimism/optimism/op-node/metrics"
-	"github.com/ethereum-optimism/optimism/op-node/p2p"
-	p2pcli "github.com/ethereum-optimism/optimism/op-node/p2p/cli"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/opio"
+	opnode "github.com/tenderly/net-blast/blast-optimism/op-node"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p"
+	p2pcli "github.com/tenderly/net-blast/blast-optimism/op-node/p2p/cli"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
+	opmetrics "github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/opio"
 )
 
 type gossipNoop struct{}

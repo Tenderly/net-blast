@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/net-blast/blast-geth/accounts"
+	"github.com/tenderly/net-blast/blast-geth/accounts/keystore"
+	"github.com/tenderly/net-blast/blast-geth/cmd/utils"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/crypto"
 	"github.com/urfave/cli/v2"
 )
 

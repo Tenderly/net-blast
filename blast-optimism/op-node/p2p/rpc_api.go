@@ -5,11 +5,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/p2p/store"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p/store"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/tenderly/net-blast/blast-geth/p2p/enode"
 )
 
 type PeerInfo struct {

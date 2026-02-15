@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-blast/blast-geth"
+	"github.com/tenderly/net-blast/blast-geth/rpc"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

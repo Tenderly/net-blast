@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/tenderly/net-blast/blast-geth/common/hexutil"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-geth/common"
 	"github.com/stretchr/testify/require"
 )
 

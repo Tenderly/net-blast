@@ -4,14 +4,14 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core/vm"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/immutables"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/state"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/bindings"
+	"github.com/tenderly/net-blast/blast-optimism/op-chain-ops/immutables"
+	"github.com/tenderly/net-blast/blast-optimism/op-chain-ops/state"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
 )
 
 // PrecompileCount represents the number of precompile addresses

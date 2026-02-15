@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core/rawdb"
+	"github.com/tenderly/net-blast/blast-geth/ethdb"
+	"github.com/tenderly/net-blast/blast-geth/ethdb/memorydb"
 )
 
 var codePrefixedKeyLength = common.HashLength + len(rawdb.CodePrefix)

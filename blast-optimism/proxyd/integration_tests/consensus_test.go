@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/tenderly/net-blast/blast-geth/common/hexutil"
 
-	"github.com/ethereum-optimism/optimism/proxyd"
-	ms "github.com/ethereum-optimism/optimism/proxyd/tools/mockserver/handler"
+	"github.com/tenderly/net-blast/blast-optimism/proxyd"
+	ms "github.com/tenderly/net-blast/blast-optimism/proxyd/tools/mockserver/handler"
 	"github.com/stretchr/testify/require"
 )
 

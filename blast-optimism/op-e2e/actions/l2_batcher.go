@@ -11,23 +11,23 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/crypto"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/params"
 
-	"github.com/ethereum-optimism/optimism/op-batcher/batcher"
-	"github.com/ethereum-optimism/optimism/op-batcher/compressor"
-	batcherFlags "github.com/ethereum-optimism/optimism/op-batcher/flags"
-	"github.com/ethereum-optimism/optimism/op-e2e/e2eutils"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/derive"
+	"github.com/tenderly/net-blast/blast-optimism/op-batcher/batcher"
+	"github.com/tenderly/net-blast/blast-optimism/op-batcher/compressor"
+	batcherFlags "github.com/tenderly/net-blast/blast-optimism/op-batcher/flags"
+	"github.com/tenderly/net-blast/blast-optimism/op-e2e/e2eutils"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup/derive"
 
-	// plasma "github.com/ethereum-optimism/optimism/op-plasma"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	// plasma "github.com/tenderly/net-blast/blast-optimism/op-plasma"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/txmgr"
 )
 
 type SyncStatusAPI interface {

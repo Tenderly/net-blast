@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-geth/eth/downloader"
+	"github.com/tenderly/net-blast/blast-geth/eth/ethconfig"
+	"github.com/tenderly/net-blast/blast-geth/node"
+	"github.com/tenderly/net-blast/blast-geth/params"
 )
 
 func TestSignalSuperchainV1(t *testing.T) {

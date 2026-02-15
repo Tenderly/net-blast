@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
-	"github.com/ethereum-optimism/optimism/op-program/client"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-program/client"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package database
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-geth/common"
 
 	"github.com/stretchr/testify/mock"
 )

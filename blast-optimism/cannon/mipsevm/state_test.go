@@ -12,11 +12,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/crypto"
 	"github.com/stretchr/testify/require"
 
-	preimage "github.com/ethereum-optimism/optimism/op-preimage"
+	preimage "github.com/tenderly/net-blast/blast-optimism/op-preimage"
 )
 
 // 0xbf_c0_00_00 ... baseAddrEnd is used in tests to write the results to

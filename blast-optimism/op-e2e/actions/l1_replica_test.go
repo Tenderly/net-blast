@@ -3,21 +3,21 @@ package actions
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/triedb/hashdb"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/consensus/beacon"
+	"github.com/tenderly/net-blast/blast-geth/consensus/ethash"
+	"github.com/tenderly/net-blast/blast-geth/core"
+	"github.com/tenderly/net-blast/blast-geth/core/rawdb"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/trie"
+	"github.com/tenderly/net-blast/blast-geth/trie/triedb/hashdb"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-e2e/e2eutils"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/sources"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
+	"github.com/tenderly/net-blast/blast-optimism/op-e2e/e2eutils"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/sources"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testlog"
 )
 
 var defaultRollupTestParams = &e2eutils.TestParams{

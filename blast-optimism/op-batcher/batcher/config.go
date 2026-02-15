@@ -8,15 +8,15 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/op-batcher/compressor"
-	"github.com/ethereum-optimism/optimism/op-batcher/flags"
+	"github.com/tenderly/net-blast/blast-optimism/op-batcher/compressor"
+	"github.com/tenderly/net-blast/blast-optimism/op-batcher/flags"
 
-	// plasma "github.com/ethereum-optimism/optimism/op-plasma"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/oppprof"
-	oprpc "github.com/ethereum-optimism/optimism/op-service/rpc"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	// plasma "github.com/tenderly/net-blast/blast-optimism/op-plasma"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
+	opmetrics "github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/oppprof"
+	oprpc "github.com/tenderly/net-blast/blast-optimism/op-service/rpc"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/txmgr"
 )
 
 type CLIConfig struct {

@@ -3,10 +3,10 @@ package hardhat
 import (
 	"encoding/json"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/solc"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/solc"
+	"github.com/tenderly/net-blast/blast-geth/accounts/abi"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/common/hexutil"
 )
 
 // Deployment represents a hardhat-deploy artifact file

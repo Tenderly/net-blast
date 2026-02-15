@@ -4,10 +4,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-service/testutils"
-	"github.com/ethereum-optimism/optimism/op-service/testutils/fuzzerutils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testutils"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testutils/fuzzerutils"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
 	fuzz "github.com/google/gofuzz"
 	"github.com/stretchr/testify/require"
 )

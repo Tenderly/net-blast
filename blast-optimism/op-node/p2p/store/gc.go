@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-service/clock"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/clock"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 const (

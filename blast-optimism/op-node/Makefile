@@ -16,8 +16,8 @@ VERSION ?= $(shell tags=$$(git tag --points-at $(GITCOMMIT) | grep '^op-node/' |
 
 LDFLAGSSTRING +=-X main.GitCommit=$(GITCOMMIT)
 LDFLAGSSTRING +=-X main.GitDate=$(GITDATE)
-LDFLAGSSTRING +=-X github.com/ethereum-optimism/optimism/op-node/version.Version=$(VERSION)
-LDFLAGSSTRING +=-X github.com/ethereum-optimism/optimism/op-node/version.Meta=$(VERSION_META)
+LDFLAGSSTRING +=-X github.com/tenderly/net-blast/blast-optimism/op-node/version.Version=$(VERSION)
+LDFLAGSSTRING +=-X github.com/tenderly/net-blast/blast-optimism/op-node/version.Meta=$(VERSION_META)
 LDFLAGS := -ldflags "$(LDFLAGSSTRING)"
 
 op-node:

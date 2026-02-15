@@ -4,13 +4,13 @@ import (
 	"errors"
 	"os"
 
-	opservice "github.com/ethereum-optimism/optimism/op-service"
+	opservice "github.com/tenderly/net-blast/blast-optimism/op-service"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	wheel "github.com/ethereum-optimism/optimism/op-wheel"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
+	wheel "github.com/tenderly/net-blast/blast-optimism/op-wheel"
 )
 
 var (

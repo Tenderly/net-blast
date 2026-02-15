@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-e2e/e2eutils/fakebeacon"
-	"github.com/ethereum-optimism/optimism/op-service/client"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/sources"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-e2e/e2eutils/fakebeacon"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/client"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/sources"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testlog"
+	"github.com/tenderly/net-blast/blast-geth"
+	"github.com/tenderly/net-blast/blast-geth/log"
 	"github.com/stretchr/testify/require"
 )
 

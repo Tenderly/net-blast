@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/tenderly/net-blast/blast-geth/common/mclock"
 )
 
 func TestUpdateTimer(t *testing.T) {

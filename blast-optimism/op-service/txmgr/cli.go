@@ -8,14 +8,14 @@ import (
 	"math/big"
 	"time"
 
-	opservice "github.com/ethereum-optimism/optimism/op-service"
-	opcrypto "github.com/ethereum-optimism/optimism/op-service/crypto"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	opsigner "github.com/ethereum-optimism/optimism/op-service/signer"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	opservice "github.com/tenderly/net-blast/blast-optimism/op-service"
+	opcrypto "github.com/tenderly/net-blast/blast-optimism/op-service/crypto"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	opsigner "github.com/tenderly/net-blast/blast-optimism/op-service/signer"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/ethclient"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/params"
 	"github.com/urfave/cli/v2"
 )
 

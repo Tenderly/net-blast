@@ -4,11 +4,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/indexer/bigint"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/bigint"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
 )
 
 // make a set of headers which chain correctly

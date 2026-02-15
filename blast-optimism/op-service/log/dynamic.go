@@ -1,6 +1,6 @@
 package log
 
-import "github.com/ethereum/go-ethereum/log"
+import "github.com/tenderly/net-blast/blast-geth/log"
 
 type LvlSetter interface {
 	SetLogLevel(lvl log.Lvl)

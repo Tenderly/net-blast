@@ -4,9 +4,9 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/ethereum-optimism/optimism/op-program/client"
-	"github.com/ethereum-optimism/optimism/op-program/host/config"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-optimism/op-program/client"
+	"github.com/tenderly/net-blast/blast-optimism/op-program/host/config"
+	"github.com/tenderly/net-blast/blast-geth/common"
 )
 
 type LocalPreimageSource struct {

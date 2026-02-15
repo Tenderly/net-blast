@@ -1,6 +1,6 @@
 package predeploys
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/tenderly/net-blast/blast-geth/common"
 
 // EIP-4788 defines a deterministic deployment transaction that deploys the beacon-block-roots contract.
 // To embed the contract in genesis, we want the deployment-result, not the contract-creation tx input code.

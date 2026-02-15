@@ -8,18 +8,18 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm/runtime"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/net-blast/blast-geth/accounts/abi"
+	"github.com/tenderly/net-blast/blast-geth/accounts/abi/bind"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core/rawdb"
+	"github.com/tenderly/net-blast/blast-geth/core/state"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/core/vm/runtime"
+	"github.com/tenderly/net-blast/blast-geth/crypto"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/testutils"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/bindings"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testutils"
 )
 
 var (
@@ -176,7 +176,7 @@ func EncodeDepositOpaqueDataV0(t *testing.T, mint *big.Int, value *big.Int, gasL
 	// in OptimismPortal.sol:
 	// bytes memory opaqueData = abi.encodePacked(msg.value, _value, _gasLimit, _isCreation, _data);
 	// Geth does not support abi.encodePacked, so we emulate it here by slicing of the padding from the individual elements
-	// See https://github.com/ethereum/go-ethereum/issues/22257
+	// See https://github.com/tenderly/net-blast/blast-geth/issues/22257
 	// And https://docs.soliditylang.org/en/v0.8.13/abi-spec.html#non-standard-packed-mode
 
 	var out []byte

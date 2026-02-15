@@ -3,11 +3,11 @@ package rpc
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/log"
-	gethrpc "github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	gethrpc "github.com/tenderly/net-blast/blast-geth/rpc"
 
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/rpc"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/rpc"
 )
 
 type ProposerDriver interface {

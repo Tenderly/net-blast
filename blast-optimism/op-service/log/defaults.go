@@ -3,7 +3,7 @@ package log
 import (
 	"os"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 func SetupDefaults() {

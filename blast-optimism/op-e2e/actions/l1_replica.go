@@ -3,22 +3,22 @@ package actions
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/tenderly/net-blast/blast-geth/core"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/eth"
+	"github.com/tenderly/net-blast/blast-geth/eth/ethconfig"
+	"github.com/tenderly/net-blast/blast-geth/eth/tracers"
+	"github.com/tenderly/net-blast/blast-geth/ethclient"
+	"github.com/tenderly/net-blast/blast-geth/ethdb"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/node"
+	"github.com/tenderly/net-blast/blast-geth/p2p"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-service/client"
-	"github.com/ethereum-optimism/optimism/op-service/sources"
-	"github.com/ethereum-optimism/optimism/op-service/testutils"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/client"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/sources"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testutils"
 )
 
 // L1CanonSrc is used to sync L1 from another node.

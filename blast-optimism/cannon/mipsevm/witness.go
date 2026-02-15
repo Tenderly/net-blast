@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	preimage "github.com/ethereum-optimism/optimism/op-preimage"
+	preimage "github.com/tenderly/net-blast/blast-optimism/op-preimage"
 )
 
 type LocalContext uint64

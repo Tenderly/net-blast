@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum-optimism/optimism/op-preimage"
+	"github.com/tenderly/net-blast/blast-optimism/op-preimage"
 )
 
 type rawHint string

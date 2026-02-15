@@ -1,7 +1,7 @@
 package eth
 
 import (
-	"github.com/ethereum/go-ethereum/internal/ethapi"
+	"github.com/tenderly/net-blast/blast-geth/internal/ethapi"
 )
 
 func (s *Ethereum) NewBlastAPI() any {

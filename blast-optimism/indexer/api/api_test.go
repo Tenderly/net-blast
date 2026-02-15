@@ -7,12 +7,12 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/indexer/api/models"
-	"github.com/ethereum-optimism/optimism/indexer/config"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/api/models"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/config"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/database"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testlog"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

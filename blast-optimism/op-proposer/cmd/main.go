@@ -3,16 +3,16 @@ package main
 import (
 	"os"
 
-	opservice "github.com/ethereum-optimism/optimism/op-service"
+	opservice "github.com/tenderly/net-blast/blast-optimism/op-service"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/op-proposer/flags"
-	"github.com/ethereum-optimism/optimism/op-proposer/metrics"
-	"github.com/ethereum-optimism/optimism/op-proposer/proposer"
-	"github.com/ethereum-optimism/optimism/op-service/cliapp"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	"github.com/ethereum-optimism/optimism/op-service/metrics/doc"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-proposer/flags"
+	"github.com/tenderly/net-blast/blast-optimism/op-proposer/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-proposer/proposer"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/cliapp"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/metrics/doc"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 var (

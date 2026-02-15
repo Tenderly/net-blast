@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/event"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 // HeadSignalFn is used as callback function to accept head-signals

@@ -3,11 +3,11 @@ package derive
 import (
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/testutils"
-	"github.com/ethereum-optimism/optimism/op-service/testutils/fuzzerutils"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testutils"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testutils/fuzzerutils"
+	"github.com/tenderly/net-blast/blast-geth/params"
 	fuzz "github.com/google/gofuzz"
 	"github.com/stretchr/testify/require"
 )

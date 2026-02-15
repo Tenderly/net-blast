@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/crossdomain"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/predeploys"
+	"github.com/tenderly/net-blast/blast-optimism/op-chain-ops/crossdomain"
 )
 
 func collectAllocAddrs(alloc core.GenesisAlloc) []common.Address {

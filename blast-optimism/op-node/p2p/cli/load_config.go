@@ -10,20 +10,20 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
 	ds "github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-datastore/sync"
 	leveldb "github.com/ipfs/go-ds-leveldb"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/multiformats/go-multiaddr"
 
-	"github.com/ethereum-optimism/optimism/op-node/flags"
-	"github.com/ethereum-optimism/optimism/op-node/p2p"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/flags"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p"
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/tenderly/net-blast/blast-geth/p2p/enode"
+	"github.com/tenderly/net-blast/blast-geth/p2p/netutil"
 )
 
 func NewConfig(ctx *cli.Context, rollupCfg *rollup.Config) (*p2p.Config, error) {

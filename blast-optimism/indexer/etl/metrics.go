@@ -3,8 +3,8 @@ package etl
 import (
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-geth/common"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

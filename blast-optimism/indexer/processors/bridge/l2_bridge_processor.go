@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/indexer/bigint"
-	"github.com/ethereum-optimism/optimism/indexer/config"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/indexer/processors/contracts"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/bigint"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/config"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/database"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/processors/contracts"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 // L2ProcessInitiatedBridgeEvents will query the database for bridge events that have been initiated between

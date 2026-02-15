@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-node/chaincfg"
-	preimage "github.com/ethereum-optimism/optimism/op-preimage"
-	"github.com/ethereum-optimism/optimism/op-program/chainconfig"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/chaincfg"
+	preimage "github.com/tenderly/net-blast/blast-optimism/op-preimage"
+	"github.com/tenderly/net-blast/blast-optimism/op-program/chainconfig"
+	"github.com/tenderly/net-blast/blast-geth/common"
 	"github.com/stretchr/testify/require"
 )
 

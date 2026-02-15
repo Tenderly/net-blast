@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/exp/slog"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 // CapturingHandler provides a log handler that captures all log records and optionally forwards them to a delegate.

@@ -18,17 +18,17 @@ import (
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/p2p/discover"
+	"github.com/tenderly/net-blast/blast-geth/p2p/enode"
 
-	"github.com/ethereum-optimism/optimism/op-node/metrics"
-	"github.com/ethereum-optimism/optimism/op-node/p2p/gating"
-	"github.com/ethereum-optimism/optimism/op-node/p2p/monitor"
-	"github.com/ethereum-optimism/optimism/op-node/p2p/store"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-service/clock"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p/gating"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p/monitor"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p/store"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/clock"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
 )
 
 // NodeP2P is a p2p node, which can be used to gossip messages.

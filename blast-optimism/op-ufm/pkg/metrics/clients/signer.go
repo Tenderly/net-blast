@@ -5,12 +5,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-ufm/pkg/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-ufm/pkg/metrics"
 
-	optls "github.com/ethereum-optimism/optimism/op-service/tls"
-	signer "github.com/ethereum-optimism/optimism/op-service/signer"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	optls "github.com/tenderly/net-blast/blast-optimism/op-service/tls"
+	signer "github.com/tenderly/net-blast/blast-optimism/op-service/signer"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 type InstrumentedSignerClient struct {

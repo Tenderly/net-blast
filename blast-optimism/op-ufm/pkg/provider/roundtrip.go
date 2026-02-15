@@ -5,19 +5,19 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-ufm/pkg/metrics"
-	iclients "github.com/ethereum-optimism/optimism/op-ufm/pkg/metrics/clients"
-	"github.com/ethereum/go-ethereum/core"
+	"github.com/tenderly/net-blast/blast-optimism/op-ufm/pkg/metrics"
+	iclients "github.com/tenderly/net-blast/blast-optimism/op-ufm/pkg/metrics/clients"
+	"github.com/tenderly/net-blast/blast-geth/core"
 
-	"github.com/ethereum-optimism/optimism/op-service/tls"
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/tls"
+	"github.com/tenderly/net-blast/blast-geth"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core/txpool"
+	"github.com/tenderly/net-blast/blast-geth/crypto"
 	"github.com/pkg/errors"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 // RoundTrip send a new transaction to measure round trip latency

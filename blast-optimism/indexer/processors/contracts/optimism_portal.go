@@ -4,13 +4,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/indexer/bigint"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/derive"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/bigint"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/database"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/bindings"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup/derive"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
 )
 
 type OptimismPortalTransactionDepositEvent struct {

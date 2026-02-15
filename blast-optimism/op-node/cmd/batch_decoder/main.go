@@ -8,14 +8,14 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/cmd/batch_decoder/fetch"
-	"github.com/ethereum-optimism/optimism/op-node/cmd/batch_decoder/reassemble"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/derive"
-	"github.com/ethereum-optimism/optimism/op-service/client"
-	"github.com/ethereum-optimism/optimism/op-service/sources"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/cmd/batch_decoder/fetch"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/cmd/batch_decoder/reassemble"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup/derive"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/client"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/sources"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/ethclient"
 	"github.com/urfave/cli/v2"
 )
 

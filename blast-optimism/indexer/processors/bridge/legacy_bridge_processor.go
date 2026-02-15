@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
-	"github.com/ethereum-optimism/optimism/indexer/bigint"
-	"github.com/ethereum-optimism/optimism/indexer/config"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/indexer/node"
-	"github.com/ethereum-optimism/optimism/indexer/processors/contracts"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/bigint"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/config"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/database"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/node"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/processors/contracts"
 )
 
 // Legacy Bridge Initiation

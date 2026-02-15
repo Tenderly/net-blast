@@ -6,12 +6,12 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/op-proposer/flags"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/oppprof"
-	oprpc "github.com/ethereum-optimism/optimism/op-service/rpc"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	"github.com/tenderly/net-blast/blast-optimism/op-proposer/flags"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
+	opmetrics "github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/oppprof"
+	oprpc "github.com/tenderly/net-blast/blast-optimism/op-service/rpc"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/txmgr"
 )
 
 // CLIConfig is a well typed config that is parsed from the CLI params.

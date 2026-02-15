@@ -3,9 +3,9 @@ package metrics
 import (
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/params"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

@@ -3,7 +3,7 @@ package hardhat_test
 import (
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/hardhat"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/hardhat"
 
 	"github.com/stretchr/testify/require"
 )

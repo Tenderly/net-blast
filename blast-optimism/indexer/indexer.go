@@ -9,21 +9,21 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ethereum-optimism/optimism/indexer/config"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	"github.com/ethereum-optimism/optimism/indexer/etl"
-	"github.com/ethereum-optimism/optimism/indexer/node"
-	"github.com/ethereum-optimism/optimism/indexer/processors"
-	"github.com/ethereum-optimism/optimism/indexer/processors/bridge"
-	"github.com/ethereum-optimism/optimism/op-service/httputil"
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/config"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/database"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/etl"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/node"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/processors"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/processors/bridge"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/httputil"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
 )
 
 // Indexer contains the necessary resources for

@@ -22,7 +22,7 @@ import (
 	"math"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-geth/common"
 	"github.com/holiman/uint256"
 )
 

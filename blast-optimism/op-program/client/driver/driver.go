@@ -6,15 +6,15 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ethereum-optimism/optimism/op-node/metrics"
-	// "github.com/ethereum-optimism/optimism/op-node/node/safedb"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/derive"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/sync"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/metrics"
+	// "github.com/tenderly/net-blast/blast-optimism/op-node/node/safedb"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup/derive"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup/sync"
 
-	// plasma "github.com/ethereum-optimism/optimism/op-plasma"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum/go-ethereum/log"
+	// plasma "github.com/tenderly/net-blast/blast-optimism/op-plasma"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 var ErrClaimNotValid = errors.New("invalid claim")

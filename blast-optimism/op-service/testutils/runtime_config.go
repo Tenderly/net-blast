@@ -1,6 +1,6 @@
 package testutils
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/tenderly/net-blast/blast-geth/common"
 
 type MockRuntimeConfig struct {
 	P2PSeqAddress common.Address

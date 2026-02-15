@@ -1,6 +1,6 @@
 package forks
 
-import "github.com/ethereum/go-ethereum/params"
+import "github.com/tenderly/net-blast/blast-geth/params"
 
 type Blob string
 

@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/exp/slog"
 
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testlog"
 	"github.com/stretchr/testify/require"
 )
 

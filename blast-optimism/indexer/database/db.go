@@ -7,13 +7,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum-optimism/optimism/indexer/config"
-	_ "github.com/ethereum-optimism/optimism/indexer/database/serializers"
-	"github.com/ethereum-optimism/optimism/op-service/retry"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/config"
+	_ "github.com/tenderly/net-blast/blast-optimism/indexer/database/serializers"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/retry"
 
 	"github.com/pkg/errors"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

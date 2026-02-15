@@ -4,9 +4,9 @@ import (
 	"github.com/libp2p/go-libp2p/core/network"
 	ma "github.com/multiformats/go-multiaddr"
 
-	"github.com/ethereum-optimism/optimism/op-node/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/metrics"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 type NotificationsMetricer interface {

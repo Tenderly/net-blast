@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-service/testutils"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testutils"
 	"github.com/stretchr/testify/require"
 )
 

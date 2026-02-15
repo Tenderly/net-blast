@@ -9,7 +9,7 @@ import (
 	"path"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-geth/common"
 )
 
 // read/write mode for user/group/other, not executable.

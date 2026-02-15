@@ -17,8 +17,8 @@
 package blobpool
 
 import (
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-geth/consensus/misc/eip4844"
+	"github.com/tenderly/net-blast/blast-geth/params"
 	"github.com/holiman/billy"
 )
 

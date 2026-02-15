@@ -3,7 +3,7 @@ package httputil
 import (
 	"net/http"
 
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-blast/blast-geth/rpc"
 )
 
 // Use default timeouts from Geth as battle tested default values

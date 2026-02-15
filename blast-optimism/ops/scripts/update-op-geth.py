@@ -22,7 +22,7 @@ def update_mod(project):
 		'mod',
 		'edit',
 		'-replace',
-		f'github.com/ethereum/go-ethereum@{GETH_VERSION}=github.com/ethereum-optimism/op-geth@optimism'
+		f'github.com/tenderly/net-blast/blast-geth@{GETH_VERSION}=github.com/ethereum-optimism/op-geth@optimism'
 	], cwd=os.path.join(project), check=True)
 	print('Tidying...')
 	subprocess.run([

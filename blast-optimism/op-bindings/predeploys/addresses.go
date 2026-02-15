@@ -1,6 +1,6 @@
 package predeploys
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/tenderly/net-blast/blast-geth/common"
 
 // TODO - we should get a single toml yaml or json file source of truth in @eth-optimism/bedrock package
 // This needs to be kept in sync with @eth-optimism/contracts-ts/wagmi.config.ts which also specifies this

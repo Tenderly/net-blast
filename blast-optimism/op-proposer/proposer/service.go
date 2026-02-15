@@ -9,20 +9,20 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-proposer/metrics"
-	"github.com/ethereum-optimism/optimism/op-proposer/proposer/rpc"
-	opservice "github.com/ethereum-optimism/optimism/op-service"
-	"github.com/ethereum-optimism/optimism/op-service/cliapp"
-	"github.com/ethereum-optimism/optimism/op-service/dial"
-	"github.com/ethereum-optimism/optimism/op-service/httputil"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/oppprof"
-	oprpc "github.com/ethereum-optimism/optimism/op-service/rpc"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	"github.com/tenderly/net-blast/blast-optimism/op-proposer/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-proposer/proposer/rpc"
+	opservice "github.com/tenderly/net-blast/blast-optimism/op-service"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/cliapp"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/dial"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/httputil"
+	opmetrics "github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/oppprof"
+	oprpc "github.com/tenderly/net-blast/blast-optimism/op-service/rpc"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/txmgr"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/ethclient"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 var ErrAlreadyStopped = errors.New("already stopped")

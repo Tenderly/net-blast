@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/chaincfg"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/chaincfg"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/stretchr/testify/suite"
 )

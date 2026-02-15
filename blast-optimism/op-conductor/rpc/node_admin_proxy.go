@@ -3,9 +3,9 @@ package rpc
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
-	"github.com/ethereum-optimism/optimism/op-service/sources"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/sources"
 )
 
 var NodeAdminRPCNamespace = "admin"

@@ -1,8 +1,8 @@
 package rollup
 
 import (
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 // Taiga changes the max sequencer drift to a protocol constant. It was previously configurable via

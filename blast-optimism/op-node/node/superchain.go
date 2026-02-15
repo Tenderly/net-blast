@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum/go-ethereum/eth/catalyst"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-geth/eth/catalyst"
+	"github.com/tenderly/net-blast/blast-geth/params"
 )
 
 var errNodeHalt = errors.New("opted to halt, unprepared for protocol change")

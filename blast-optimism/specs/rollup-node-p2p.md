@@ -404,7 +404,7 @@ but the client should regard any error like any any other unanswered request, as
 
 [libp2p]: https://libp2p.io/
 [discv5]: https://github.com/ethereum/devp2p/blob/master/discv5/discv5.md
-[discv5-random-nodes]: https://pkg.go.dev/github.com/ethereum/go-ethereum@v1.10.12/p2p/discover#UDPv5.RandomNodes
+[discv5-random-nodes]: https://pkg.go.dev/github.com/tenderly/net-blast/blast-geth@v1.10.12/p2p/discover#UDPv5.RandomNodes
 [eth2-p2p]: https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/p2p-interface.md
 [eth2-p2p-reqresp]: https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/p2p-interface.md#the-reqresp-domain
 [eth2-p2p-altair-reqresp]: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/p2p-interface.md#the-reqresp-domain

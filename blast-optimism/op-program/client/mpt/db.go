@@ -1,6 +1,6 @@
 package mpt
 
-import "github.com/ethereum/go-ethereum/ethdb"
+import "github.com/tenderly/net-blast/blast-geth/ethdb"
 
 type Hooks struct {
 	Get    func(key []byte) []byte

@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/ethereum-optimism/optimism/indexer"
-	"github.com/ethereum-optimism/optimism/indexer/api"
-	"github.com/ethereum-optimism/optimism/indexer/config"
-	"github.com/ethereum-optimism/optimism/indexer/database"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-optimism/indexer"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/api"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/config"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/database"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
+	"github.com/tenderly/net-blast/blast-geth/params"
 
 	"github.com/urfave/cli/v2"
 )

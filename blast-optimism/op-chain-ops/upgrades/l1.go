@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-geth/accounts/abi/bind"
+	"github.com/tenderly/net-blast/blast-geth/common"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/genesis"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/safe"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/bindings"
+	"github.com/tenderly/net-blast/blast-optimism/op-chain-ops/genesis"
+	"github.com/tenderly/net-blast/blast-optimism/op-chain-ops/safe"
 
 	"github.com/ethereum-optimism/superchain-registry/superchain"
 )

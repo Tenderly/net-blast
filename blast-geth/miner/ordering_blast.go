@@ -4,9 +4,9 @@ import (
 	"container/heap"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core/txpool"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
 )
 
 // txByTime implements both the sort and the heap interface, making it useful

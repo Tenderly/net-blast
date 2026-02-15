@@ -6,7 +6,7 @@ import (
 
 	"github.com/ethereum-optimism/superchain-registry/superchain"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
 )
 
 var Mainnet, Goerli, Sepolia *rollup.Config

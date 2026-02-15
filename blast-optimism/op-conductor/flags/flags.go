@@ -5,12 +5,12 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	opservice "github.com/ethereum-optimism/optimism/op-service"
-	opflags "github.com/ethereum-optimism/optimism/op-service/flags"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/oppprof"
-	oprpc "github.com/ethereum-optimism/optimism/op-service/rpc"
+	opservice "github.com/tenderly/net-blast/blast-optimism/op-service"
+	opflags "github.com/tenderly/net-blast/blast-optimism/op-service/flags"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
+	opmetrics "github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/oppprof"
+	oprpc "github.com/tenderly/net-blast/blast-optimism/op-service/rpc"
 )
 
 const EnvVarPrefix = "OP_CONDUCTOR"

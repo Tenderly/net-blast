@@ -8,13 +8,13 @@ import (
 	peer "github.com/libp2p/go-libp2p/core/peer"
 	suite "github.com/stretchr/testify/suite"
 
-	log "github.com/ethereum/go-ethereum/log"
+	log "github.com/tenderly/net-blast/blast-geth/log"
 
-	p2p "github.com/ethereum-optimism/optimism/op-node/p2p"
-	p2pMocks "github.com/ethereum-optimism/optimism/op-node/p2p/mocks"
-	"github.com/ethereum-optimism/optimism/op-node/p2p/store"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
+	p2p "github.com/tenderly/net-blast/blast-optimism/op-node/p2p"
+	p2pMocks "github.com/tenderly/net-blast/blast-optimism/op-node/p2p/mocks"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p/store"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testlog"
 )
 
 // PeerScorerTestSuite tests peer parameterization.

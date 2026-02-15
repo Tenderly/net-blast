@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/tenderly/net-blast/blast-geth/accounts/abi"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
 )
 
 // DecodeVersionNonce is an re-implementation of Encoding.sol#decodeVersionedNonce.

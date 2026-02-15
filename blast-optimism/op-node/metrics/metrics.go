@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-geth/params"
 
-	"github.com/ethereum-optimism/optimism/op-node/p2p/store"
-	ophttp "github.com/ethereum-optimism/optimism/op-service/httputil"
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p/store"
+	ophttp "github.com/tenderly/net-blast/blast-optimism/op-service/httputil"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
 
 	pb "github.com/libp2p/go-libp2p-pubsub/pb"
 	libp2pmetrics "github.com/libp2p/go-libp2p/core/metrics"
@@ -19,9 +19,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus/collectors"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-geth/common"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
 )
 
 const (

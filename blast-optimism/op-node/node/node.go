@@ -7,26 +7,26 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-service/httputil"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/httputil"
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth"
+	"github.com/tenderly/net-blast/blast-geth/event"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
-	"github.com/ethereum-optimism/optimism/op-node/heartbeat"
-	"github.com/ethereum-optimism/optimism/op-node/metrics"
-	"github.com/ethereum-optimism/optimism/op-node/p2p"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/driver"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/sync"
-	"github.com/ethereum-optimism/optimism/op-node/version"
-	"github.com/ethereum-optimism/optimism/op-service/client"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/oppprof"
-	"github.com/ethereum-optimism/optimism/op-service/retry"
-	"github.com/ethereum-optimism/optimism/op-service/sources"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/heartbeat"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup/driver"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup/sync"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/version"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/client"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/oppprof"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/retry"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/sources"
 )
 
 var ErrAlreadyClosed = errors.New("node is already closed")

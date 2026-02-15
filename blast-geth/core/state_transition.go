@@ -22,13 +22,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	cmath "github.com/tenderly/net-blast/blast-geth/common/math"
+	"github.com/tenderly/net-blast/blast-geth/core/state"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/core/vm"
+	"github.com/tenderly/net-blast/blast-geth/crypto/kzg4844"
+	"github.com/tenderly/net-blast/blast-geth/params"
 )
 
 // ExecutionResult includes all output after executing given evm

@@ -8,7 +8,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/ethereum-optimism/optimism/op-service/ioutil"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/ioutil"
 )
 
 func loadJSON[X any](inputPath string) (*X, error) {

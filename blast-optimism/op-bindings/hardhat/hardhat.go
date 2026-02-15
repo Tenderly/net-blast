@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/solc"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/solc"
 )
 
 var (

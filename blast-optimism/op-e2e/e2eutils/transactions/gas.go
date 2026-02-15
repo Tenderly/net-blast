@@ -3,8 +3,8 @@ package transactions
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/tenderly/net-blast/blast-geth/accounts/abi/bind"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
 )
 
 // TxBuilder creates and sends a transaction using the supplied bind.TransactOpts.

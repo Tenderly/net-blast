@@ -3,7 +3,7 @@ package cmd
 import (
 	"io"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 func Logger(w io.Writer, lvl log.Lvl) log.Logger {

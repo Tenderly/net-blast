@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/proxyd"
+	"github.com/tenderly/net-blast/blast-optimism/proxyd"
 	"github.com/stretchr/testify/require"
 )
 

@@ -13,8 +13,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/ast"
-	"github.com/ethereum-optimism/optimism/op-bindings/foundry"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/ast"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/foundry"
 )
 
 type flags struct {
@@ -207,7 +207,7 @@ package {{.Package}}
 import (
 	"encoding/json"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/solc"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/solc"
 )
 
 const {{.Name}}StorageLayoutJSON = "{{.StorageLayout}}"

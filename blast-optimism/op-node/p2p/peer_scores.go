@@ -1,7 +1,7 @@
 package p2p
 
 import (
-	log "github.com/ethereum/go-ethereum/log"
+	log "github.com/tenderly/net-blast/blast-geth/log"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 )
 

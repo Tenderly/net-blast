@@ -7,10 +7,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethereum-optimism/optimism/op-service/sources/batching"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/sources/batching"
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-blast/blast-geth/rpc"
 )
 
 // IterativeBatchCall batches many RPC requests with safe and easy parallelization.

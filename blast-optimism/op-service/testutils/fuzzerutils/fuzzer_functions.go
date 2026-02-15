@@ -3,7 +3,7 @@ package fuzzerutils
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-geth/common"
 	fuzz "github.com/google/gofuzz"
 )
 

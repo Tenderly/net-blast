@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/solc"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/solc"
+	"github.com/tenderly/net-blast/blast-geth/common"
 )
 
 // layouts respresents the set of storage layouts. It is populated in an init function.

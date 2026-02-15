@@ -7,15 +7,15 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/net-blast/blast-geth/accounts/abi/bind"
+	"github.com/tenderly/net-blast/blast-geth/accounts/abi/bind/backends"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core"
+	"github.com/tenderly/net-blast/blast-geth/crypto"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/solc"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/state"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/state/testdata"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/solc"
+	"github.com/tenderly/net-blast/blast-optimism/op-chain-ops/state"
+	"github.com/tenderly/net-blast/blast-optimism/op-chain-ops/state/testdata"
 
 	"github.com/stretchr/testify/require"
 )

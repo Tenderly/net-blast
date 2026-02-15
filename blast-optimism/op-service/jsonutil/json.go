@@ -9,7 +9,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	"github.com/ethereum-optimism/optimism/op-service/ioutil"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/ioutil"
 )
 
 type Decoder interface {

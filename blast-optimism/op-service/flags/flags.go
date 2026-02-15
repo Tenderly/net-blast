@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum-optimism/optimism/op-node/chaincfg"
-	opservice "github.com/ethereum-optimism/optimism/op-service"
-	openum "github.com/ethereum-optimism/optimism/op-service/enum"
-	"github.com/ethereum-optimism/optimism/op-service/forks"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/chaincfg"
+	opservice "github.com/tenderly/net-blast/blast-optimism/op-service"
+	openum "github.com/tenderly/net-blast/blast-optimism/op-service/enum"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/forks"
 	"github.com/urfave/cli/v2"
 )
 

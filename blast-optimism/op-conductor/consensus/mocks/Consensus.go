@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	eth "github.com/ethereum-optimism/optimism/op-service/eth"
+	eth "github.com/tenderly/net-blast/blast-optimism/op-service/eth"
 	mock "github.com/stretchr/testify/mock"
 )
 

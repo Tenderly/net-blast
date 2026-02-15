@@ -3,10 +3,10 @@ package p2p
 import (
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
 
-	"github.com/ethereum-optimism/optimism/op-node/p2p/store"
-	log "github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p/store"
+	log "github.com/tenderly/net-blast/blast-geth/log"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	peer "github.com/libp2p/go-libp2p/core/peer"
 )

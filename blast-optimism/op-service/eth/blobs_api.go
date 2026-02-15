@@ -1,6 +1,6 @@
 package eth
 
-import "github.com/ethereum/go-ethereum/common/hexutil"
+import "github.com/tenderly/net-blast/blast-geth/common/hexutil"
 
 type BlobSidecar struct {
 	Blob          Blob         `json:"blob"`

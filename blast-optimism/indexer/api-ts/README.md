@@ -1,1 +1,1 @@
-Generated typescript types for https://github.com/ethereum-optimism/optimism/tree/develop/indexer
+Generated typescript types for https://github.com/tenderly/net-blast/blast-optimism/tree/develop/indexer

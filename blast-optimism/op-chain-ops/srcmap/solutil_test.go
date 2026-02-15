@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/tenderly/net-blast/blast-geth/common/hexutil"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/bindings"
 )
 
 func TestSourcemap(t *testing.T) {

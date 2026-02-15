@@ -9,12 +9,12 @@ import (
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/metrics"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/p2p/discover"
+	"github.com/tenderly/net-blast/blast-geth/p2p/enode"
+	"github.com/tenderly/net-blast/blast-geth/p2p/enr"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
 )
 
 // Prepared provides a p2p host and discv5 service that is already set up.

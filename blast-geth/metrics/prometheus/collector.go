@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/tenderly/net-blast/blast-geth/metrics"
 )
 
 var (

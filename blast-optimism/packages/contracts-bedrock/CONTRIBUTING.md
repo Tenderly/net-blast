@@ -2,7 +2,7 @@
 
 First off, thanks for taking the time to contribute!
 
-We welcome and appreciate all kinds of contributions. We ask that before contributing you please review the procedures for each type of contribution available in the [Table of Contents](#table-of-contents). This will streamline the process for both maintainers and contributors. To find ways to contribute, view the [I Want To Contribute](#i-want-to-contribute) section below. Larger contributions should [open an issue](https://github.com/ethereum-optimism/optimism/issues/new) before implementation to ensure changes don't go to waste.
+We welcome and appreciate all kinds of contributions. We ask that before contributing you please review the procedures for each type of contribution available in the [Table of Contents](#table-of-contents). This will streamline the process for both maintainers and contributors. To find ways to contribute, view the [I Want To Contribute](#i-want-to-contribute) section below. Larger contributions should [open an issue](https://github.com/tenderly/net-blast/blast-optimism/issues/new) before implementation to ensure changes don't go to waste.
 
 We're excited to work with you and your contributions to scaling Ethereum!
 

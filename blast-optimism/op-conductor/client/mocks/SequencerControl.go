@@ -5,9 +5,9 @@ package mocks
 import (
 	context "context"
 
-	common "github.com/ethereum/go-ethereum/common"
+	common "github.com/tenderly/net-blast/blast-geth/common"
 
-	eth "github.com/ethereum-optimism/optimism/op-service/eth"
+	eth "github.com/tenderly/net-blast/blast-optimism/op-service/eth"
 
 	mock "github.com/stretchr/testify/mock"
 )

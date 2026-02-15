@@ -15,9 +15,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slog"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
-	"github.com/ethereum-optimism/optimism/proxyd"
+	"github.com/tenderly/net-blast/blast-optimism/proxyd"
 )
 
 type ProxydHTTPClient struct {

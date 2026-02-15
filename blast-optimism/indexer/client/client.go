@@ -8,10 +8,10 @@ import (
 
 	"encoding/json"
 
-	"github.com/ethereum-optimism/optimism/indexer/api"
-	"github.com/ethereum-optimism/optimism/indexer/api/models"
-	"github.com/ethereum-optimism/optimism/indexer/node"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/api"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/api/models"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/node"
+	"github.com/tenderly/net-blast/blast-geth/common"
 )
 
 const (

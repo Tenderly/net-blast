@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"math"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	preimage "github.com/ethereum-optimism/optimism/op-preimage"
-	"github.com/ethereum-optimism/optimism/op-program/chainconfig"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	preimage "github.com/tenderly/net-blast/blast-optimism/op-preimage"
+	"github.com/tenderly/net-blast/blast-optimism/op-program/chainconfig"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/params"
 )
 
 const (

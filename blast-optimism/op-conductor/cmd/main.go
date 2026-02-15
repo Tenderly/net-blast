@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/op-conductor/conductor"
-	"github.com/ethereum-optimism/optimism/op-conductor/flags"
-	opservice "github.com/ethereum-optimism/optimism/op-service"
-	"github.com/ethereum-optimism/optimism/op-service/cliapp"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	"github.com/ethereum-optimism/optimism/op-service/opio"
+	"github.com/tenderly/net-blast/blast-optimism/op-conductor/conductor"
+	"github.com/tenderly/net-blast/blast-optimism/op-conductor/flags"
+	opservice "github.com/tenderly/net-blast/blast-optimism/op-service"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/cliapp"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/opio"
 )
 
 var (

@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-ufm/pkg/metrics"
-	"github.com/ethereum-optimism/optimism/op-ufm/pkg/metrics/clients"
+	"github.com/tenderly/net-blast/blast-optimism/op-ufm/pkg/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-ufm/pkg/metrics/clients"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth"
+	"github.com/tenderly/net-blast/blast-geth/log"
 	"github.com/pkg/errors"
 )
 

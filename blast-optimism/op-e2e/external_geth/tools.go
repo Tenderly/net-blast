@@ -2,4 +2,4 @@
 
 package main
 
-import _ "github.com/ethereum/go-ethereum/cmd/geth"
+import _ "github.com/tenderly/net-blast/blast-geth/cmd/geth"

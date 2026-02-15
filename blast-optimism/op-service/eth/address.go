@@ -1,6 +1,6 @@
 package eth
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/tenderly/net-blast/blast-geth/common"
 
 // AddressAsLeftPaddedHash converts an address to a hash by left-padding it with zeros.
 // No hashing is performed.

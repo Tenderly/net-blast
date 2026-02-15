@@ -28,8 +28,8 @@ The `abigen` tool is part of `go-ethereum` and can be used to build go bindings
 for smart contracts. It can be installed with go using the commands:
 
 ```bash
-$ go get -u github.com/ethereum/go-ethereum
-$ cd $GOPATH/src/github.com/ethereum/go-ethereum/
+$ go get -u github.com/tenderly/net-blast/blast-geth
+$ cd $GOPATH/src/github.com/tenderly/net-blast/blast-geth/
 $ make devtools
 ```
 

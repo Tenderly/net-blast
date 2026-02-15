@@ -8,11 +8,11 @@ import (
 	"github.com/urfave/cli/v2"
 	"golang.org/x/exp/slog"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
-	opservice "github.com/ethereum-optimism/optimism/op-service"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
+	opservice "github.com/tenderly/net-blast/blast-optimism/op-service"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
 )
 
 const EnvPrefix = "OP_CHAIN_OPS_RECEIPT_REFERENCE_BUILDER"

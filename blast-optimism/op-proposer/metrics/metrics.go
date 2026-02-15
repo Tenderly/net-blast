@@ -5,13 +5,13 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/ethclient"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	txmetrics "github.com/ethereum-optimism/optimism/op-service/txmgr/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	opmetrics "github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
+	txmetrics "github.com/tenderly/net-blast/blast-optimism/op-service/txmgr/metrics"
 )
 
 const Namespace = "op_proposer"

@@ -3,9 +3,9 @@
 package sources
 
 import (
-	"github.com/ethereum-optimism/optimism/op-service/client"
-	"github.com/ethereum-optimism/optimism/op-service/sources/caching"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/client"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/sources/caching"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 const buildRethdb = false

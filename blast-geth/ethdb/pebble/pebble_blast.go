@@ -24,9 +24,9 @@ import (
 
 	"github.com/cockroachdb/pebble"
 	"github.com/cockroachdb/pebble/bloom"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/metrics"
 )
 
 const (
@@ -170,7 +170,7 @@ func NewBlastPebble(file string, cache int, handles int, namespace string, reado
 		l.EnsureDefaults()
 	}
 
-	// Disable seek compaction explicitly. Check https://github.com/ethereum/go-ethereum/pull/20130
+	// Disable seek compaction explicitly. Check https://github.com/tenderly/net-blast/blast-geth/pull/20130
 	// for more details.
 	opt.Experimental.ReadSamplingMultiplier = -1
 	// blast adjustments

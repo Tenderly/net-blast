@@ -4,14 +4,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-batcher/batcher"
-	"github.com/ethereum-optimism/optimism/op-batcher/compressor"
-	"github.com/ethereum-optimism/optimism/op-batcher/flags"
-	"github.com/ethereum-optimism/optimism/op-service/log"
-	"github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/oppprof"
-	"github.com/ethereum-optimism/optimism/op-service/rpc"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	"github.com/tenderly/net-blast/blast-optimism/op-batcher/batcher"
+	"github.com/tenderly/net-blast/blast-optimism/op-batcher/compressor"
+	"github.com/tenderly/net-blast/blast-optimism/op-batcher/flags"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/oppprof"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/rpc"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/txmgr"
 	"github.com/stretchr/testify/require"
 )
 

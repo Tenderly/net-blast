@@ -5,10 +5,10 @@ import (
 	"fmt"
 
 	hdwallet "github.com/ethereum-optimism/go-ethereum-hdwallet"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/net-blast/blast-geth/accounts"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/common/hexutil"
+	"github.com/tenderly/net-blast/blast-geth/crypto"
 )
 
 // DefaultMnemonicConfig is the default mnemonic used in testing.

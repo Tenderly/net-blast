@@ -3,10 +3,10 @@ package testutils
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-blast/blast-geth"
+	"github.com/tenderly/net-blast/blast-geth/rpc"
 
-	"github.com/ethereum-optimism/optimism/op-service/client"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/client"
 )
 
 // RPCErrFaker implements an RPC by wrapping one, but returns an error when prepared with one, to test RPC error handling.

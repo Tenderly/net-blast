@@ -10,7 +10,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/cannon/cmd"
+	"github.com/tenderly/net-blast/blast-optimism/cannon/cmd"
 )
 
 func main() {

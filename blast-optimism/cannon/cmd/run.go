@@ -7,15 +7,15 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/common/hexutil"
+	"github.com/tenderly/net-blast/blast-geth/log"
 	"github.com/urfave/cli/v2"
 
 	"github.com/pkg/profile"
 
-	"github.com/ethereum-optimism/optimism/cannon/mipsevm"
-	preimage "github.com/ethereum-optimism/optimism/op-preimage"
+	"github.com/tenderly/net-blast/blast-optimism/cannon/mipsevm"
+	preimage "github.com/tenderly/net-blast/blast-optimism/op-preimage"
 )
 
 var (

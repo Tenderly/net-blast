@@ -1,7 +1,7 @@
 package eth
 
 import (
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-geth/params"
 )
 
 // L1ChainConfigByChainID returns the chain config for the given chain ID,

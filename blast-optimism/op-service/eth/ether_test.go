@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
+	"github.com/tenderly/net-blast/blast-geth/accounts/abi"
 	"github.com/stretchr/testify/require"
 )
 

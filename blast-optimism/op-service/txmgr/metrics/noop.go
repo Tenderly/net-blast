@@ -3,7 +3,7 @@ package metrics
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
 )
 
 type NoopTxMetrics struct{}

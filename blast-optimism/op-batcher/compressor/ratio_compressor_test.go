@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-batcher/compressor"
+	"github.com/tenderly/net-blast/blast-optimism/op-batcher/compressor"
 	"github.com/stretchr/testify/require"
 )
 

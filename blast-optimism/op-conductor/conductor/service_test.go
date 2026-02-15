@@ -8,21 +8,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/common/hexutil"
+	"github.com/tenderly/net-blast/blast-geth/log"
 	"github.com/hashicorp/go-multierror"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 
-	clientmocks "github.com/ethereum-optimism/optimism/op-conductor/client/mocks"
-	consensusmocks "github.com/ethereum-optimism/optimism/op-conductor/consensus/mocks"
-	"github.com/ethereum-optimism/optimism/op-conductor/health"
-	healthmocks "github.com/ethereum-optimism/optimism/op-conductor/health/mocks"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/testlog"
-	"github.com/ethereum-optimism/optimism/op-service/testutils"
+	clientmocks "github.com/tenderly/net-blast/blast-optimism/op-conductor/client/mocks"
+	consensusmocks "github.com/tenderly/net-blast/blast-optimism/op-conductor/consensus/mocks"
+	"github.com/tenderly/net-blast/blast-optimism/op-conductor/health"
+	healthmocks "github.com/tenderly/net-blast/blast-optimism/op-conductor/health/mocks"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testlog"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testutils"
 )
 
 func mockConfig(t *testing.T) Config {

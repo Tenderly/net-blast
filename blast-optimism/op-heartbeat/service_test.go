@@ -10,11 +10,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-node/heartbeat"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/heartbeat"
+	opmetrics "github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
 )
 
 func TestService(t *testing.T) {

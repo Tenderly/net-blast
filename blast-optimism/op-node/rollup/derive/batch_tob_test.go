@@ -3,7 +3,7 @@ package derive
 import (
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-service/testutils/fuzzerutils"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/testutils/fuzzerutils"
 	fuzz "github.com/google/gofuzz"
 	"github.com/stretchr/testify/require"
 )

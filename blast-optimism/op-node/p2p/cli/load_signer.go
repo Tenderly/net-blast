@@ -3,11 +3,11 @@ package cli
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/net-blast/blast-geth/crypto"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/op-node/flags"
-	"github.com/ethereum-optimism/optimism/op-node/p2p"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/flags"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p"
 )
 
 // TODO: implement remote signer setup (config to authenticated endpoint)

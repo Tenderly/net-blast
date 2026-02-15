@@ -6,7 +6,7 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/ethereum-optimism/optimism/proxyd/tools/mockserver/handler"
+	"github.com/tenderly/net-blast/blast-optimism/proxyd/tools/mockserver/handler"
 )
 
 func main() {

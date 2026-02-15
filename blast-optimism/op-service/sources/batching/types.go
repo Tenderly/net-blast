@@ -3,7 +3,7 @@ package batching
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-blast/blast-geth/rpc"
 )
 
 type BatchCallContextFn func(ctx context.Context, b []rpc.BatchElem) error

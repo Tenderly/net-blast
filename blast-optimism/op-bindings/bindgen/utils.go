@@ -11,7 +11,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 type BindGenGeneratorBase struct {

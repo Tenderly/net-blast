@@ -7,10 +7,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/crypto"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
 )
 
 var SigningDomainBlocksV1 = [32]byte{}

@@ -1,9 +1,9 @@
 package transactions
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/crypto/kzg4844"
 	"github.com/holiman/uint256"
 )
 
@@ -27,7 +27,7 @@ func init() {
 }
 
 // with thanks to fjl
-// https://github.com/ethereum/go-ethereum/commit/2a6beb6a39d7cb3c5906dd4465d65da6efcc73cd
+// https://github.com/tenderly/net-blast/blast-geth/commit/2a6beb6a39d7cb3c5906dd4465d65da6efcc73cd
 func CreateEmptyBlobTx(withSidecar bool, chainID uint64) *types.BlobTx {
 	sidecar := &types.BlobTxSidecar{
 		Blobs:       []kzg4844.Blob{*emptyBlob},

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ethereum-optimism/optimism/op-service/sources/batching/rpcblock"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/sources/batching/rpcblock"
+	"github.com/tenderly/net-blast/blast-geth/rpc"
 )
 
 var DefaultBatchSize = 100

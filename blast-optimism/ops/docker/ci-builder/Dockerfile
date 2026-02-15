@@ -49,10 +49,10 @@ ENV PATH=/usr/local/go/bin:$GOPATH/bin:$PATH
 
 # Install the specific version of abigen from .abigenrc
 COPY ./.abigenrc ./.abigenrc
-RUN go install github.com/ethereum/go-ethereum/cmd/abigen@$(cat .abigenrc)
+RUN go install github.com/tenderly/net-blast/blast-geth/cmd/abigen@$(cat .abigenrc)
 
 COPY ./.gethrc ./.gethrc
-RUN go install github.com/ethereum/go-ethereum/cmd/geth@$(cat .gethrc)
+RUN go install github.com/tenderly/net-blast/blast-geth/cmd/geth@$(cat .gethrc)
 
 RUN go install gotest.tools/gotestsum@latest
 RUN go install github.com/vektra/mockery/v2@v2.28.1

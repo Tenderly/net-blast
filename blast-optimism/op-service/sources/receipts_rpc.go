@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-service/client"
-	"github.com/ethereum-optimism/optimism/op-service/sources/caching"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/client"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/sources/caching"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/common/hexutil"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/rpc"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
 )
 
 func newRPCRecProviderFromConfig(client client.RPC, log log.Logger, metrics caching.Metrics, config *EthClientConfig) *CachingReceiptsProvider {
@@ -285,7 +285,7 @@ const (
 	// EthGetBlockReceipts is a previously non-standard receipt fetching method in the eth namespace,
 	// supported by some RPC platforms.
 	// This since has been standardized in https://github.com/ethereum/execution-apis/pull/438 and adopted in Geth:
-	// https://github.com/ethereum/go-ethereum/pull/27702
+	// https://github.com/tenderly/net-blast/blast-geth/pull/27702
 	// Available in:
 	//   - Alchemy: 500 CU total  (and deprecated)
 	//   - QuickNode: 59 credits total       (does not seem to work with block hash arg, inaccurate docs)

@@ -10,26 +10,26 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/ethclient"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
-	"github.com/ethereum-optimism/optimism/op-batcher/flags"
-	"github.com/ethereum-optimism/optimism/op-batcher/metrics"
-	"github.com/ethereum-optimism/optimism/op-batcher/rpc"
-	"github.com/ethereum-optimism/optimism/op-node/chaincfg"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-batcher/flags"
+	"github.com/tenderly/net-blast/blast-optimism/op-batcher/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-batcher/rpc"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/chaincfg"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
 
-	// plasma "github.com/ethereum-optimism/optimism/op-plasma"
+	// plasma "github.com/tenderly/net-blast/blast-optimism/op-plasma"
 
-	//plasma "github.com/ethereum-optimism/optimism/op-plasma"
-	"github.com/ethereum-optimism/optimism/op-service/cliapp"
-	"github.com/ethereum-optimism/optimism/op-service/dial"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/httputil"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	"github.com/ethereum-optimism/optimism/op-service/oppprof"
-	oprpc "github.com/ethereum-optimism/optimism/op-service/rpc"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	//plasma "github.com/tenderly/net-blast/blast-optimism/op-plasma"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/cliapp"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/dial"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/httputil"
+	opmetrics "github.com/tenderly/net-blast/blast-optimism/op-service/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/oppprof"
+	oprpc "github.com/tenderly/net-blast/blast-optimism/op-service/rpc"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/txmgr"
 )
 
 var ErrAlreadyStopped = errors.New("already stopped")

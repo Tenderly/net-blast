@@ -3,7 +3,7 @@ package contracts
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-geth/common"
 	"github.com/urfave/cli/v2"
 )
 

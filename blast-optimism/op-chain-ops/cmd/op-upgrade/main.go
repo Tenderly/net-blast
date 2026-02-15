@@ -9,17 +9,17 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/ethclient"
+	"github.com/tenderly/net-blast/blast-geth/log"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/op-chain-ops/clients"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/genesis"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/safe"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/upgrades"
-	"github.com/ethereum-optimism/optimism/op-service/jsonutil"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-chain-ops/clients"
+	"github.com/tenderly/net-blast/blast-optimism/op-chain-ops/genesis"
+	"github.com/tenderly/net-blast/blast-optimism/op-chain-ops/safe"
+	"github.com/tenderly/net-blast/blast-optimism/op-chain-ops/upgrades"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/jsonutil"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
 
 	"github.com/ethereum-optimism/superchain-registry/superchain"
 )

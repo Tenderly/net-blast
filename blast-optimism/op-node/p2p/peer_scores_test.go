@@ -8,16 +8,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup"
 
 	//nolint:all
 	"github.com/libp2p/go-libp2p/p2p/host/peerstore/pstoreds"
 
-	p2pMocks "github.com/ethereum-optimism/optimism/op-node/p2p/mocks"
-	"github.com/ethereum-optimism/optimism/op-node/p2p/store"
-	"github.com/ethereum-optimism/optimism/op-service/clock"
-	testlog "github.com/ethereum-optimism/optimism/op-service/testlog"
-	log "github.com/ethereum/go-ethereum/log"
+	p2pMocks "github.com/tenderly/net-blast/blast-optimism/op-node/p2p/mocks"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/p2p/store"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/clock"
+	testlog "github.com/tenderly/net-blast/blast-optimism/op-service/testlog"
+	log "github.com/tenderly/net-blast/blast-geth/log"
 	ds "github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-datastore/sync"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"

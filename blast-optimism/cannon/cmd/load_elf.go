@@ -6,7 +6,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/cannon/mipsevm"
+	"github.com/tenderly/net-blast/blast-optimism/cannon/mipsevm"
 )
 
 var (

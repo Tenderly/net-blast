@@ -18,9 +18,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	ophttp "github.com/ethereum-optimism/optimism/op-service/httputil"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	ophttp "github.com/tenderly/net-blast/blast-optimism/op-service/httputil"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 var (

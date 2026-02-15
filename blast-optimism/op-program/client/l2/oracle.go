@@ -3,13 +3,13 @@ package l2
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
+	"github.com/tenderly/net-blast/blast-geth/rlp"
 
-	preimage "github.com/ethereum-optimism/optimism/op-preimage"
-	"github.com/ethereum-optimism/optimism/op-program/client/mpt"
-	"github.com/ethereum-optimism/optimism/op-service/eth"
+	preimage "github.com/tenderly/net-blast/blast-optimism/op-preimage"
+	"github.com/tenderly/net-blast/blast-optimism/op-program/client/mpt"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
 )
 
 // StateOracle defines the high-level API used to retrieve L2 state data pre-images

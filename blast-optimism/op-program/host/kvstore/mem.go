@@ -4,7 +4,7 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-geth/common"
 )
 
 // MemKV implements the KV store interface in memory, backed by a regular Go map.

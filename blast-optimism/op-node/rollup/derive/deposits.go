@@ -5,9 +5,9 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/common/hexutil"
+	"github.com/tenderly/net-blast/blast-geth/core/types"
 )
 
 // UserDeposits transforms the L2 block-height and L1 receipts into the transaction inputs for a full L2 block

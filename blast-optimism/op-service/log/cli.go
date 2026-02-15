@@ -9,10 +9,10 @@ import (
 	"github.com/urfave/cli/v2"
 	"golang.org/x/term"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 
-	opservice "github.com/ethereum-optimism/optimism/op-service"
-	"github.com/ethereum-optimism/optimism/op-service/cliapp"
+	opservice "github.com/tenderly/net-blast/blast-optimism/op-service"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/cliapp"
 )
 
 const (

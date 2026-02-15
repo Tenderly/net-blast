@@ -3,8 +3,8 @@ package routes
 import (
 	"net/http"
 
-	"github.com/ethereum-optimism/optimism/indexer/api/models"
-	"github.com/ethereum-optimism/optimism/indexer/database"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/api/models"
+	"github.com/tenderly/net-blast/blast-optimism/indexer/database"
 	"github.com/go-chi/chi/v5"
 )
 

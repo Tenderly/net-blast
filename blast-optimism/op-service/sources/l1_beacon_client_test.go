@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-service/eth"
-	"github.com/ethereum-optimism/optimism/op-service/sources/mocks"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/eth"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/sources/mocks"
+	"github.com/tenderly/net-blast/blast-geth/crypto/kzg4844"
 	"github.com/stretchr/testify/require"
 )
 

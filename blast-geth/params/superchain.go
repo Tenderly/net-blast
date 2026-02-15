@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	// "github.com/ethereum/go-ethereum/superchain"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	// "github.com/tenderly/net-blast/blast-geth/superchain"
 )
 
 var OPStackSupport = ProtocolVersionV0{Build: [8]byte{}, Major: 9, Minor: 0, Patch: 0, PreRelease: 0}.Encode()

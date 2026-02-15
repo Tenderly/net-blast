@@ -4,11 +4,11 @@ import (
 	"context"
 	"net"
 
-	"github.com/ethereum-optimism/optimism/op-ufm/pkg/config"
-	"github.com/ethereum-optimism/optimism/op-ufm/pkg/metrics"
-	"github.com/ethereum-optimism/optimism/op-ufm/pkg/provider"
+	"github.com/tenderly/net-blast/blast-optimism/op-ufm/pkg/config"
+	"github.com/tenderly/net-blast/blast-optimism/op-ufm/pkg/metrics"
+	"github.com/tenderly/net-blast/blast-optimism/op-ufm/pkg/provider"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/net-blast/blast-geth/log"
 )
 
 type Service struct {

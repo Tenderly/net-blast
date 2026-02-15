@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-blast/blast-geth"
+	"github.com/tenderly/net-blast/blast-geth/rpc"
 	"golang.org/x/time/rate"
 )
 

@@ -6,13 +6,13 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup/sync"
-	//plasma "github.com/ethereum-optimism/optimism/op-plasma"
-	openum "github.com/ethereum-optimism/optimism/op-service/enum"
-	opflags "github.com/ethereum-optimism/optimism/op-service/flags"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	"github.com/ethereum-optimism/optimism/op-service/oppprof"
-	"github.com/ethereum-optimism/optimism/op-service/sources"
+	"github.com/tenderly/net-blast/blast-optimism/op-node/rollup/sync"
+	//plasma "github.com/tenderly/net-blast/blast-optimism/op-plasma"
+	openum "github.com/tenderly/net-blast/blast-optimism/op-service/enum"
+	opflags "github.com/tenderly/net-blast/blast-optimism/op-service/flags"
+	oplog "github.com/tenderly/net-blast/blast-optimism/op-service/log"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/oppprof"
+	"github.com/tenderly/net-blast/blast-optimism/op-service/sources"
 )
 
 // Flags

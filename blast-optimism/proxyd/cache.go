@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/net-blast/blast-geth/rpc"
 	"github.com/redis/go-redis/v9"
 
 	"github.com/golang/snappy"

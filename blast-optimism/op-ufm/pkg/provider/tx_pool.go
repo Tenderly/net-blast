@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/net-blast/blast-geth/common"
 )
 
 // TransactionPool is used locally to share transactions between providers under the same pool

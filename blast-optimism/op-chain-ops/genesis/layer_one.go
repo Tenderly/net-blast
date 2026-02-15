@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/net-blast/blast-geth/log"
+	"github.com/tenderly/net-blast/blast-geth/params"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	gstate "github.com/ethereum/go-ethereum/core/state"
+	"github.com/tenderly/net-blast/blast-geth/common"
+	"github.com/tenderly/net-blast/blast-geth/core"
+	gstate "github.com/tenderly/net-blast/blast-geth/core/state"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/state"
+	"github.com/tenderly/net-blast/blast-optimism/op-bindings/bindings"
+	"github.com/tenderly/net-blast/blast-optimism/op-chain-ops/state"
 )
 
 var (
@@ -59,7 +59,7 @@ func BuildL1DeveloperGenesis(config *DeployConfig, dump *gstate.Dump, l1Deployme
 		for addrstr, account := range dump.Accounts {
 			address := addrstr
 			// if !common.IsHexAddress(addrstr) {
-			// Changes in https://github.com/ethereum/go-ethereum/pull/28504
+			// Changes in https://github.com/tenderly/net-blast/blast-geth/pull/28504
 			// add accounts to the Dump with "pre(<AddressHash>)" as key
 			// if the address itself is nil.
 			// So depending on how `dump` was created, this might be a
