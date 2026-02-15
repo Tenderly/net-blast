@@ -1,7 +1,6 @@
 package main
 
 import (
-	"blast/blockchain"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -12,6 +11,8 @@ import (
 	"time"
 
 	"github.com/cockroachdb/pebble"
+	"github.com/hashicorp/go-plugin"
+	"github.com/tenderly/net-blast/blast-geth/blockchain"
 	"github.com/tenderly/net-blast/blast-geth/common"
 	"github.com/tenderly/net-blast/blast-geth/consensus/misc/eip1559"
 	"github.com/tenderly/net-blast/blast-geth/core"
@@ -32,7 +33,6 @@ import (
 	"github.com/tenderly/net-blast/blast-geth/p2p"
 	"github.com/tenderly/net-blast/blast-geth/rpc"
 	"github.com/tenderly/net-blast/blast-geth/trie"
-	"github.com/hashicorp/go-plugin"
 )
 
 type workState struct {
@@ -282,7 +282,7 @@ func (p *pluginBlast) NewChain(startingArgs *blockchain.NewChainStartingArgs) bl
 				return blockchain.NewChainOrError{Err: plugin.NewBasicError(ErrEmptyAddr)}
 			}
 			gen.Alloc[addr] = core.GenesisAccount{
-				Balance: amt,
+				Balance: amt.Balance,
 			}
 		}
 

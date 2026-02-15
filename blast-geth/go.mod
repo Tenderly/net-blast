@@ -3,7 +3,6 @@ module github.com/tenderly/net-blast/blast-geth
 go 1.24.2
 
 require (
-	blast/blockchain v0.0.0-00010101000000-000000000000
 	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v1.2.0
 	github.com/Microsoft/go-winio v0.6.1
 	github.com/VictoriaMetrics/fastcache v1.12.1
@@ -152,6 +151,3 @@ require (
 	gotest.tools/v3 v3.5.1 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect
 )
-
-//replace github.com/ethereum-optimism/superchain-registry/superchain => ../superchain-registry/superchain
-replace blast/blockchain => ./blockchain
